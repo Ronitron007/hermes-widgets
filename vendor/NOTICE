@@ -1,0 +1,32 @@
+VENDORED DEPENDENCIES NOTICE
+============================
+
+This directory contains vendored copies of the following MIT-licensed packages:
+
+1. cordis@4.0.0-rc.12
+   Repository: https://github.com/cordiverse/cordis
+   License: MIT
+   Author: Shigma <shigma10826@gmail.com>
+   
+   Note: The cordis npm package does not include a LICENSE file in the distribution,
+   but package.json declares MIT license. See cosmokit LICENSE below from the same
+   author for the standard MIT text.
+
+2. cosmokit@1.8.1
+   Repository: https://github.com/cordiverse/cosmokit
+   License: MIT
+   Copyright (c) 2021-present Shigma
+   See: vendor/cosmokit/LICENSE
+
+3. @standard-schema/spec@1.1.0
+   Repository: https://github.com/standard-schema/standard-schema
+   License: MIT
+   Copyright (c) 2024 Colin McDonnell
+   See: vendor/@standard-schema/spec/LICENSE
+
+All three packages are licensed under the MIT License, which permits use,
+modification, and redistribution with attribution. Full license texts are
+preserved in the respective package directories where available.
+
+Vendored on: 2026-11-08
+Purpose: Spike 1 testing for Hermes Widgets hackathon entry
