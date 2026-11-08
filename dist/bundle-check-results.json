@@ -1,0 +1,24 @@
+{
+  "version": "4.0.0-rc.12",
+  "minifiedBytes": 30997,
+  "gzippedBytes": 10938,
+  "safetyChecks": [
+    {
+      "pattern": "eval(",
+      "found": 0
+    },
+    {
+      "pattern": "new Function",
+      "found": 0
+    },
+    {
+      "pattern": "dynamic import()",
+      "found": 0
+    },
+    {
+      "pattern": "Node built-in imports",
+      "found": 0
+    }
+  ],
+  "passed": true
+}

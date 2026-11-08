@@ -1,0 +1,23 @@
+{
+  "name": "hermes-widgets",
+  "version": "0.1.0",
+  "description": "Spatiotemporal widgets for Hermes Desktop",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run-all.js",
+    "bundle-check": "node scripts/bundle-check.js"
+  },
+  "keywords": [
+    "hermes",
+    "widgets",
+    "cordis"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "dependencies": {
+    "cordis": "4.0.0-rc.12"
+  }
+}
