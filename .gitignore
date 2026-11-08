@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/*.js
+dist/*.js.map
+
+# Keep bundle check results for documentation
+!dist/bundle-check-results.json
+
+# Keep desktop plugin build
+!desktop/plugin.js
+!desktop/build-metadata.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
