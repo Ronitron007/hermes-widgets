@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "buildDate": "2026-11-08T15:18:02.989Z",
+  "pluginSize": 74162,
+  "cordisVersion": "4.0.0-rc.12",
+  "safetyChecks": [
+    {
+      "pattern": "eval(",
+      "found": 0
+    },
+    {
+      "pattern": "new Function",
+      "found": 0
+    },
+    {
+      "pattern": "dynamic import()",
+      "found": 0
+    },
+    {
+      "pattern": "Node built-ins",
+      "found": 0
+    },
+    {
+      "pattern": "window.*",
+      "found": 0
+    },
+    {
+      "pattern": "bare setTimeout",
+      "found": 0
+    },
+    {
+      "pattern": "bare setInterval",
+      "found": 0
+    }
+  ]
+}
